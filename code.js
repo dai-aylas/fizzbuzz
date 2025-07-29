@@ -1,18 +1,21 @@
 function FizzBuzz2(){
       const max = parseInt(document.getElementById('MaxNum').value);
-      const fizz = parseInt(document.getElementById('fizz_num').value);
-      const buzz = parseInt(document.getElementById('buzz_num').value);
+      const numfizz = parseInt(document.getElementById('fizz_num').value);
+      const numbuzz = parseInt(document.getElementById('buzz_num').value);
+      const nomfizz = document.getElementById('fizz_nom').value;
+      const nombuzz = document.getElementById('buzz_nom').value;
+
       const nros = [];
 
     for(i=1; i<max+1; i++){
-        if(i % fizz == 0 && i % buzz == 0){
-            nros.push("FizzBuzz")    
+        if(i % numfizz == 0 && i % numbuzz == 0){
+            nros.push(nomfizz+nombuzz)    
         }
-        else if(i % fizz == 0){
-            nros.push("Fizz")    
+        else if(i % numfizz == 0){
+            nros.push(nomfizz)    
         }
-        else if (i % buzz == 0){
-            nros.push("Buzz")    
+        else if (i % numbuzz == 0){
+            nros.push(nombuzz)    
         }
         else {
             nros.push(i)    
