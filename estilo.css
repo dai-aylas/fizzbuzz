@@ -1,0 +1,116 @@
+/*RESPONSIVO*/
+@media (max-width: 767px){
+    body{
+        background-image: url(FondoCelu.png);
+        background-size: cover;
+        
+    }
+
+    .content{
+        background-color: #ff80cca7;
+        border-radius: 5dvb;
+        margin: 2dvh 5dvh;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .inicio{
+    padding: 2vh;
+
+    }
+    .FizzBuzz{
+    padding: 3vh;
+    }
+    
+    p{
+    font-size: xx-small;
+    }
+    .titulo{
+    font-size: 2vh;
+    color: #593425;
+    font-family:monospace;
+    text-align: center;
+    }
+
+    #box{
+    display: block;
+    border-radius: 5dvb;
+    }
+
+    button{
+    background-color: #ff90dc;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 2vh;
+    width: 30vh;
+    height: 10vh;
+    border-radius: 5dvb;
+    border-color: #593425;
+    cursor: pointer;
+    display: inline-block;
+    transition: transform 0.3s ease;
+    }
+    
+    button:hover{
+        transform: scale(1.2);
+    }
+}
+
+@media (min-width: 767px){
+   body{
+        background-image: url(FondoCompu.png);
+        background-size: cover;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+    .content{
+        background-color: #ff80cca7;
+        border-radius: 5dvb;
+        margin: 20dvh 5dvh;
+        width: 50vh;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .inicio{
+    padding: 5vh;
+    }
+    .FizzBuzz{
+    padding: 5vh;
+    }
+    
+    p{
+        font-size: smaller;
+    }
+    .titulo{
+    font-size: 2vh;
+    color: #593425;
+    font-family:monospace;
+    text-align: center;
+    }
+
+    #box{
+    display: block;
+    border-radius: 5dvb;
+    }
+
+    button{
+    background-color: #ff90dc;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 5vh;
+    width: 30vh;
+    height: 10vh;
+    border-radius: 5dvb;
+    border-color: #593425;
+    cursor: pointer;
+    display: inline-block;
+    transition: transform 0.3s ease;
+    }
+    
+    button:hover{
+        transform: scale(1.2);
+    }
+}

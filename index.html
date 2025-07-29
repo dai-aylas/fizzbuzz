@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FizzBuzz</title>
+    <link rel="stylesheet" href="estilo.css" type="text/css">
+    <script src="code.js"></script> 
+
+</head>
+<body>
+    <div class="content inicio">
+        <p class="titulo">¿Hasta que número contar?</p>
+        <label for="MaxNum" id="box"></label>
+        <input type="number" id="MaxNum" value="20" max="100" min="1">
+
+        <p class="titulo">Número para Fizz</p>
+        <label for="Fizz" id="box"></label>
+        <input type="number" id="fizz_num" value="3" max="100" min="1">
+        
+        <p class="titulo">Número para Buzz</p>
+        <label for="Buzz" id="box"></label>
+        <input type="number" id="buzz_num" value="5" max="100" min="1">
+
+        <button onclick="FizzBuzz2()">Generar FizzBuzz</button>
+    </div>
+    <div class="content FizzBuzz">
+        <p class="titulo"> FizzBuzz ^^ !</p>
+        <p id="rta" class="titulo"></script></p>
+    </div>
+</body>
+</html>
