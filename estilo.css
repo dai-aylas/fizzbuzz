@@ -7,7 +7,7 @@
     }
 
     .content{
-        background-color: #ff80cca7;
+        background-color: #ff80cccb;
         border-radius: 5dvb;
         margin: 2dvh 5dvh;
         display:flex;
@@ -24,18 +24,30 @@
     }
     
     p{
-    font-size: xx-small;
+        font-family: 'Courier New', Courier, monospace;
+        color: #593425;
+        text-align: center;
     }
     .titulo{
-    font-size: 2vh;
-    color: #593425;
-    font-family:monospace;
-    text-align: center;
+        font-size: 2.5vb;
+        border-bottom: 2px solid #593425;
     }
 
-    #box{
-    display: block;
-    border-radius: 5dvb;
+    label{
+        font-family: 'Courier New', Courier, monospace;
+        margin: 1vh;
+        font-size: 2vh;
+        color: #593425;
+        text-align: center;
+    }    
+    input {
+        padding: 1vh;
+        border: 2px solid #593425;
+        border-radius: 4dvh;
+        font-size: small;
+        font-family:'Times New Roman', Times, serif;
+        width: 15vh;
+        color: rgb(121, 121, 121);
     }
 
     button{
@@ -66,9 +78,9 @@
         flex-direction: row;
     }
     .content{
-        background-color: #ff80cca7;
+        background-color: #ff80cccb;
         border-radius: 5dvb;
-        margin: 20dvh 5dvh;
+        margin: 2dvh 5dvh;
         width: 50vh;
         display:flex;
         justify-content: center;
@@ -82,19 +94,32 @@
     padding: 5vh;
     }
     
+ 
     p{
-        font-size: smaller;
+        font-family: 'Courier New', Courier, monospace;
+        color: #593425;
+        text-align: center;
     }
     .titulo{
-    font-size: 2vh;
-    color: #593425;
-    font-family:monospace;
-    text-align: center;
+        font-size: 2.5vb;
+        border-bottom: 2px solid #593425;
     }
 
-    #box{
-    display: block;
-    border-radius: 5dvb;
+    label{
+        font-family: 'Courier New', Courier, monospace;
+        margin: 1vh;
+        font-size: 2vh;
+        color: #593425;
+        text-align: center;
+    }    
+    input {
+        padding: 1vh;
+        border: 2px solid #593425;
+        border-radius: 4dvh;
+        font-size: small;
+        font-family:'Times New Roman', Times, serif;
+        width: 15vh;
+        color: rgb(121, 121, 121);
     }
 
     button{
