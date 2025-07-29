@@ -11,22 +11,25 @@
 <body>
     <div class="content inicio">
         <p class="titulo">¿Hasta que número contar?</p>
-        <label for="MaxNum" id="box"></label>
         <input type="number" id="MaxNum" value="20" max="100" min="1">
 
-        <p class="titulo">Número para Fizz</p>
-        <label for="Fizz" id="box"></label>
+        <p class="titulo">Datos para Fizz</p>
+        <label for="NumFizz"  >Número</label>
         <input type="number" id="fizz_num" value="3" max="100" min="1">
-        
-        <p class="titulo">Número para Buzz</p>
-        <label for="Buzz" id="box"></label>
+        <label for="NomFizz"  >Nombre</label>
+        <input type="text" id="fizz_nom" value="ama">
+
+        <p class="titulo">Datos para Buzz</p>
+        <label for="NumBuzz">Número</label>
         <input type="number" id="buzz_num" value="5" max="100" min="1">
+        <label for="NomBuzz">Nombre</label>
+        <input type="text" id="buzz_nom" value="pola">
 
         <button onclick="FizzBuzz2()">Generar FizzBuzz</button>
     </div>
     <div class="content FizzBuzz">
         <p class="titulo"> FizzBuzz ^^ !</p>
-        <p id="rta" class="titulo"></script></p>
+        <p id="rta"></script></p>
     </div>
 </body>
 </html>
