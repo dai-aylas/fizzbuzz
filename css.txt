@@ -1,0 +1,164 @@
+/*RESPONSIVO*/
+@media (max-width: 767px){
+    body{
+        background-image: url(FondoCelu.png);
+        background-size: cover;
+        
+    }
+
+    .content{
+        background-color: #ff80cccb;
+        border-radius: 5dvb;
+        margin: 2dvh 5dvh;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    #backk{
+        gap: 2vh;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+    .inicio{
+    padding: 2vh;
+
+    }
+    .FizzBuzz{
+    padding: 3vh;
+    }
+    
+    p{
+        font-family: 'Courier New', Courier, monospace;
+        color: #593425;
+        text-align: center;
+    }
+    .titulo{
+        font-size: 2.5vb;
+        border-bottom: 2px solid #593425;
+    }
+
+    label{
+        font-family: 'Courier New', Courier, monospace;
+        margin: 1vh;
+        font-size: 2vh;
+        color: #593425;
+        text-align: center;
+    }    
+    input {
+        padding: 1vh;
+        border: 2px solid #593425;
+        border-radius: 4dvh;
+        font-size: small;
+        font-family:'Times New Roman', Times, serif;
+        width: 15vh;
+        color: rgb(121, 121, 121);
+    }
+
+    button{
+    background-color: #ff90dc;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 2vh;
+    width: 30vh;
+    height: 10vh;
+    border-radius: 5dvb;
+    border-color: #593425;
+    cursor: pointer;
+    display: inline-block;
+    transition: transform 0.3s ease;
+    }
+    
+    button:hover{
+        transform: scale(1.2);
+    }
+    .back{
+        width: 10vh;
+        height: 5vh;
+    }
+}
+
+@media (min-width: 767px){
+   body{
+        background-image: url(FondoCompu.png);
+        background-size: cover;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+    .content{
+        background-color: #ff80cccb;
+        border-radius: 5dvb;
+        margin: 2dvh 5dvh;
+        width: 50vh;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    #backk{
+        gap: 2vh;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+    .inicio{
+    padding: 5vh;
+    }
+    .FizzBuzz{
+    padding: 3vh;
+    }
+    
+ 
+    p{
+        font-family: 'Courier New', Courier, monospace;
+        color: #593425;
+        text-align: center;
+        margin: 1vh;
+    }
+    .titulo{
+        font-size: 2.5vb;
+        border-bottom: 2px solid #593425;
+    }
+
+    label{
+        font-family: 'Courier New', Courier, monospace;
+        margin: 1vh;
+        font-size: 2vh;
+        color: #593425;
+        text-align: center;
+    }    
+    input {
+        padding: 1vh;
+        border: 2px solid #593425;
+        border-radius: 4dvh;
+        font-size: small;
+        font-family:'Times New Roman', Times, serif;
+        width: 15vh;
+        color: rgb(121, 121, 121);
+    }
+
+    button{
+    background-color: #ff90dc;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 5vh;
+    width: 30vh;
+    height: 10vh;
+    border-radius: 5dvb;
+    border-color: #593425;
+    cursor: pointer;
+    display: inline-block;
+    transition: transform 0.3s ease;
+    }
+    
+    button:hover{
+        transform: scale(1.2);
+    }
+    .back{
+        width: 10vh;
+        height: 5vh;
+    }
+}

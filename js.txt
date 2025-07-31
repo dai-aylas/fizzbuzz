@@ -1,0 +1,55 @@
+function FizzBuzz2(){
+    let max = parseInt(document.getElementById('MaxNum').value);
+    let numfizz = parseInt(document.getElementById('fizz_num').value);
+    let numbuzz = parseInt(document.getElementById('buzz_num').value);
+    const nomfizz = document.getElementById('fizz_nom').value;
+    const nombuzz = document.getElementById('buzz_nom').value;
+
+    const nros = [];
+
+// VALIDACIONES !
+    // Maximo
+    if(max > 100){
+        document.getElementById("MaxNum").value = "100"
+        max=100;
+    }
+    else if(max<1){
+        document.getElementById("MaxNum").value = "1"
+        max=1;
+    }
+    // Valor Fizz
+    if(numfizz > 100){
+        document.getElementById("fizz_num").value = "100"
+        numfizz=100;
+    }
+    else if(numfizz<1){
+        document.getElementById("fizz_num").value = "1"
+        numfizz=1;
+    }
+    // Valor Buzz
+    if(numbuzz > 100){
+        document.getElementById("buzz_num").value = "100"
+        numbuzz=100;
+    }
+    else if(numbuzz<1){
+        document.getElementById("buzz_num").value = "1"
+        numbuzz=1;
+    }
+    
+//FIZZBUZZ !
+    for(i=1; i<max+1; i++){
+        if(i % numfizz == 0 && i % numbuzz == 0){
+            nros.push(nomfizz+nombuzz)    
+        }
+        else if(i % numfizz == 0){
+            nros.push(nomfizz)    
+        }
+        else if (i % numbuzz == 0){
+            nros.push(nombuzz)    
+        }
+        else {
+            nros.push(i)    
+        }
+        document.getElementById("rta").textContent = nros.join(", ")
+    }
+}
